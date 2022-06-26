@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78108DC32866EE650067288E /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108DC22866EE650067288E /* ListItem.swift */; };
+		78108DC52866F6870067288E /* ItemListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108DC42866F6870067288E /* ItemListModel.swift */; };
+		78108DC9286700810067288E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108DC8286700810067288E /* ItemRow.swift */; };
+		78108DCB28670A550067288E /* AddItemLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108DCA28670A550067288E /* AddItemLink.swift */; };
+		78108DCD28674BBC0067288E /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108DCC28674BBC0067288E /* ItemDetail.swift */; };
+		78108DCF28675A030067288E /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108DCE28675A030067288E /* ItemList.swift */; };
+		78108DD128675A330067288E /* ProductivityChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108DD028675A330067288E /* ProductivityChart.swift */; };
+		78108DD32867608D0067288E /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108DD22867608D0067288E /* ChartData.swift */; };
+		78108DD5286763710067288E /* DateFormatStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108DD4286763710067288E /* DateFormatStyle.swift */; };
+		78108DD72867696D0067288E /* IntegerFormatStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108DD62867696D0067288E /* IntegerFormatStyle.swift */; };
+		78376AEF2864E4FF002E0371 /* WatchTaskLiskSample Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 78376AEE2864E4FF002E0371 /* WatchTaskLiskSample Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		78376AF42864E4FF002E0371 /* WatchTaskLiskSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78376AF32864E4FF002E0371 /* WatchTaskLiskSampleApp.swift */; };
+		78376AF62864E4FF002E0371 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78376AF52864E4FF002E0371 /* ContentView.swift */; };
+		78376AF82864E501002E0371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78376AF72864E501002E0371 /* Assets.xcassets */; };
+		78376AFB2864E501002E0371 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78376AFA2864E501002E0371 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78376AF02864E4FF002E0371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78376AE22864E4FF002E0371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78376AED2864E4FF002E0371;
+			remoteInfo = "WatchTaskLiskSample Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78376B012864E501002E0371 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				78376AEF2864E4FF002E0371 /* WatchTaskLiskSample Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		78108DC22866EE650067288E /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		78108DC42866F6870067288E /* ItemListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListModel.swift; sourceTree = "<group>"; };
+		78108DC8286700810067288E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		78108DCA28670A550067288E /* AddItemLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemLink.swift; sourceTree = "<group>"; };
+		78108DCC28674BBC0067288E /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		78108DCE28675A030067288E /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		78108DD028675A330067288E /* ProductivityChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityChart.swift; sourceTree = "<group>"; };
+		78108DD22867608D0067288E /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		78108DD4286763710067288E /* DateFormatStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatStyle.swift; sourceTree = "<group>"; };
+		78108DD62867696D0067288E /* IntegerFormatStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerFormatStyle.swift; sourceTree = "<group>"; };
+		78376AE82864E4FF002E0371 /* WatchTaskLiskSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTaskLiskSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78376AEE2864E4FF002E0371 /* WatchTaskLiskSample Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchTaskLiskSample Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78376AF32864E4FF002E0371 /* WatchTaskLiskSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTaskLiskSampleApp.swift; sourceTree = "<group>"; };
+		78376AF52864E4FF002E0371 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78376AF72864E501002E0371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78376AFA2864E501002E0371 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78376AEB2864E4FF002E0371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78108DC62866F6CA0067288E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78108DC42866F6870067288E /* ItemListModel.swift */,
+				78108DC22866EE650067288E /* ListItem.swift */,
+				78108DD22867608D0067288E /* ChartData.swift */,
+				78108DD4286763710067288E /* DateFormatStyle.swift */,
+				78108DD62867696D0067288E /* IntegerFormatStyle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		78108DC72867005B0067288E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78376AF52864E4FF002E0371 /* ContentView.swift */,
+				78108DC8286700810067288E /* ItemRow.swift */,
+				78108DCA28670A550067288E /* AddItemLink.swift */,
+				78108DCC28674BBC0067288E /* ItemDetail.swift */,
+				78108DCE28675A030067288E /* ItemList.swift */,
+				78108DD028675A330067288E /* ProductivityChart.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78376AE12864E4FF002E0371 = {
+			isa = PBXGroup;
+			children = (
+				78376AF22864E4FF002E0371 /* WatchTaskLiskSample Watch App */,
+				78376AE92864E4FF002E0371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78376AE92864E4FF002E0371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78376AE82864E4FF002E0371 /* WatchTaskLiskSample.app */,
+				78376AEE2864E4FF002E0371 /* WatchTaskLiskSample Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78376AF22864E4FF002E0371 /* WatchTaskLiskSample Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				78376AF32864E4FF002E0371 /* WatchTaskLiskSampleApp.swift */,
+				78376AF72864E501002E0371 /* Assets.xcassets */,
+				78108DC62866F6CA0067288E /* Models */,
+				78376AF92864E501002E0371 /* Preview Content */,
+				78108DC72867005B0067288E /* Views */,
+			);
+			path = "WatchTaskLiskSample Watch App";
+			sourceTree = "<group>";
+		};
+		78376AF92864E501002E0371 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78376AFA2864E501002E0371 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78376AE72864E4FF002E0371 /* WatchTaskLiskSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78376B022864E501002E0371 /* Build configuration list for PBXNativeTarget "WatchTaskLiskSample" */;
+			buildPhases = (
+				78376AE62864E4FF002E0371 /* Resources */,
+				78376B012864E501002E0371 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78376AF12864E4FF002E0371 /* PBXTargetDependency */,
+			);
+			name = WatchTaskLiskSample;
+			productName = WatchTaskLiskSample;
+			productReference = 78376AE82864E4FF002E0371 /* WatchTaskLiskSample.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		78376AED2864E4FF002E0371 /* WatchTaskLiskSample Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78376AFE2864E501002E0371 /* Build configuration list for PBXNativeTarget "WatchTaskLiskSample Watch App" */;
+			buildPhases = (
+				78376AEA2864E4FF002E0371 /* Sources */,
+				78376AEB2864E4FF002E0371 /* Frameworks */,
+				78376AEC2864E4FF002E0371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchTaskLiskSample Watch App";
+			productName = "WatchTaskLiskSample Watch App";
+			productReference = 78376AEE2864E4FF002E0371 /* WatchTaskLiskSample Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78376AE22864E4FF002E0371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					78376AE72864E4FF002E0371 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					78376AED2864E4FF002E0371 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 78376AE52864E4FF002E0371 /* Build configuration list for PBXProject "WatchTaskLiskSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78376AE12864E4FF002E0371;
+			productRefGroup = 78376AE92864E4FF002E0371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78376AE72864E4FF002E0371 /* WatchTaskLiskSample */,
+				78376AED2864E4FF002E0371 /* WatchTaskLiskSample Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78376AE62864E4FF002E0371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78376AEC2864E4FF002E0371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78376AFB2864E501002E0371 /* Preview Assets.xcassets in Resources */,
+				78376AF82864E501002E0371 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78376AEA2864E4FF002E0371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78108DCD28674BBC0067288E /* ItemDetail.swift in Sources */,
+				78108DC32866EE650067288E /* ListItem.swift in Sources */,
+				78376AF62864E4FF002E0371 /* ContentView.swift in Sources */,
+				78108DCB28670A550067288E /* AddItemLink.swift in Sources */,
+				78108DCF28675A030067288E /* ItemList.swift in Sources */,
+				78108DD128675A330067288E /* ProductivityChart.swift in Sources */,
+				78108DD5286763710067288E /* DateFormatStyle.swift in Sources */,
+				78108DD72867696D0067288E /* IntegerFormatStyle.swift in Sources */,
+				78108DD32867608D0067288E /* ChartData.swift in Sources */,
+				78108DC9286700810067288E /* ItemRow.swift in Sources */,
+				78108DC52866F6870067288E /* ItemListModel.swift in Sources */,
+				78376AF42864E4FF002E0371 /* WatchTaskLiskSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78376AF12864E4FF002E0371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78376AED2864E4FF002E0371 /* WatchTaskLiskSample Watch App */;
+			targetProxy = 78376AF02864E4FF002E0371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78376AFC2864E501002E0371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78376AFD2864E501002E0371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		78376AFF2864E501002E0371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchTaskLiskSample Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTaskLiskSample;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.WatchTaskLiskSample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		78376B002864E501002E0371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchTaskLiskSample Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTaskLiskSample;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.WatchTaskLiskSample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		78376B032864E501002E0371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTaskLiskSample;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.WatchTaskLiskSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		78376B042864E501002E0371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTaskLiskSample;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.WatchTaskLiskSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78376AE52864E4FF002E0371 /* Build configuration list for PBXProject "WatchTaskLiskSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78376AFC2864E501002E0371 /* Debug */,
+				78376AFD2864E501002E0371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78376AFE2864E501002E0371 /* Build configuration list for PBXNativeTarget "WatchTaskLiskSample Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78376AFF2864E501002E0371 /* Debug */,
+				78376B002864E501002E0371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78376B022864E501002E0371 /* Build configuration list for PBXNativeTarget "WatchTaskLiskSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78376B032864E501002E0371 /* Debug */,
+				78376B042864E501002E0371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78376AE22864E4FF002E0371 /* Project object */;
+}

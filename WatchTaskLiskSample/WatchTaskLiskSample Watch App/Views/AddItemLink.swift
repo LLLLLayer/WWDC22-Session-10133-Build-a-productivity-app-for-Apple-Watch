@@ -1,0 +1,27 @@
+//
+//  AddItemLink.swift
+//  WatchTaskLiskSample Watch App
+//
+//  Created by Layer on 2022/6/25.
+//
+
+import SwiftUI
+
+struct AddItemLink: View {
+    @EnvironmentObject private var model: ItemListModel
+    var body: some View {
+        TextFieldLink(prompt: Text("New Item")) {
+            Label("Add", systemImage: "plus.circle.fill")
+        } onSubmit: {
+            model.items.append(ListItem($0))
+        }
+        Spacer()
+            .frame(height: 5.0)
+    }
+}
+
+struct AddItemLink_Previews: PreviewProvider {
+    static var previews: some View {
+        AddItemLink()
+    }
+}
